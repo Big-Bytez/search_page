@@ -1,0 +1,119 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+   
+ }
+
+
+
+
+
+#user_img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 6vw;
+    height: 6vw;
+}
+
+#icon_img {
+    top: 0;
+    left: 0;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+.search-bar {
+    overflow: hidden;
+    
+  }
+
+
+.search-bar input[type=text] {
+    background-color: #ff141479;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33vw;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-bar ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+   
+  }
+
+  .filter_bar{
+    font-family: 'Varela Round', sans-serif;
+    background: #b90c0c;
+     position: fixed;
+     width: 8.5em;
+     height: 95%;
+     padding-top: 0%;
+     top: 5.5em; 
+  }
+
+  body>sideBar h2{
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(210, 205, 205);
+    font-size: 4vh;
+    margin-top: 3vh;
+
+  }
+  body>sideBar a {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  body>sideBar {
+    display: grid;
+    justify-items: begin;
+    padding-left: .2em;
+    position: fixed;
+    width: 6em;     
+    left: 0vw;
+  }
+
+  .mini-recipes {
+    color: #fff;
+    font: 100 24px/100px sans-serif;
+    margin-top: 1em;
+    margin-left: 6em; 
+    width: 44em;
+    text-align: center;
+  }
+
+  .mini-recipes div {
+    margin-top: 0.15em;
+    margin-left: 0.15em;
+    height: 16em;
+    width: 10em;
+  }
+
+  .type0 {
+    background: orangered;
+  }
+  .type1 {
+    background: yellowgreen;
+  }
+  .type2 {
+    background: steelblue;
+  }
+
+  .mini-recipes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  
+  
+
+
+
