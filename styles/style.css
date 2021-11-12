@@ -264,6 +264,19 @@ body>sideBar a {
   flex-wrap: wrap;
 }
 
+.mini-recipes img {
+  margin-top: 0.2em;
+  width: 8em;
+  height: auto;
+}
+
+
+.recipe_title {
+  font-size: 40;
+}
+
+
+
 
 
 
