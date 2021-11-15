@@ -75,8 +75,10 @@ class SearchRecipe extends HTMLElement {
         styleElem.innerHTML = styles;
 
         const recipe = document.createElement('article');
+        recipe.setAttribute('href',"")
 
         const recipe_title = document.createElement('p');
+        recipe_title.setAttribute('href',"")
         recipe_title.setAttribute('class','headline')
 
         const recipe_img = document.createElement('img');
