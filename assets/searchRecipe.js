@@ -7,53 +7,64 @@ class SearchRecipe extends HTMLElement {
     }
   
     set data(data) {
-        console.log('hei');
         const styleElem = document.createElement('style');
         const styles = `
-        article {
-            displey: grid;
+        
+          article{
+            display: grid;
             width: 240px;
-            height: 260px;
+        
+            grid-template-rows: 100px 140px 20px;
+            row-gap: 0;
             border-style: solid;
             border-width: 2px;
             border-color: #b90c0c;
             border-radius: 10px;
+            text-align: center;
+            margin-left: 10;
+
         }
-        article > img{
-            position: relative; 
-            left: 10px; 
-            bottom: -40px;
+        p {
+          font-family: 'Varela Round', sans-serif;
+          font-size: 2.5vh;
+          margin-top: 20
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+        
+        img {
+            object-fit: cover;
             width: 220px;
-            height: auto;
-            
+            max-height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
         }
+
         div {
-            width: 60px;
-            height: 60px;
-            background: #b90c0c;
-            border-radius: 50%;
-            position: relative; 
-            visibility: visible; 
-            left: 170px; 
-            bottom: 14px;
-            border-style: solid;
-            border-width: 2px;
-            border-color: black;
-          }
-        p.headline {
-            font-family: 'Varela Round', sans-serif;
-            font-size: 2.5vh;
-            margin-top: 20
-            margin-left: 15px;
-            margin-right: 15px;
-            text-align: center;
-            text-decoration: wavy;
-            color: black;
-          }
+          width: 60px;
+          height: 60px;
+          background: #b90c0c;
+          border-radius: 50%;
+          position: relative; 
+          visibility: visible; 
+          left: 170px; 
+          bottom: 60px;
+          border-style: solid;
+          border-width: 2px;
+          border-color: black;
+        }
+
         .recipe-time {
-            color: white;
-            text-align: center;
-          }
+          color: white;
+          margin-left:12px;
+          text-align: center;
+        }
+        
+        
+        
+        
         
         
         
